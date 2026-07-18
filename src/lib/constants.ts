@@ -3,9 +3,9 @@ export const SITE = {
   tagline: "AI Solutions for Modern Businesses",
   description:
     "We build AI-powered websites, marketing content, automation systems, chatbots and business solutions that save time, increase revenue and reduce manual work.",
-  url: "https://bharataisolutions.com",
+  url: "https://bharatai.solutions",
   whatsapp: "919518846970",
-  email: "hello@bharataisolutions.com",
+  email: "hello@bharatai.solutions",
   location: "India",
   startingPrice: "₹6,999",
 } as const;

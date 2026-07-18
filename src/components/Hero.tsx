@@ -66,7 +66,7 @@ function HeroMockup() {
         <span className="h-2.5 w-2.5 rounded-full bg-[#FEBC2E]" />
         <span className="h-2.5 w-2.5 rounded-full bg-[#28C840]" />
         <div className="ml-3 flex-1 rounded-full bg-white px-3 py-1 text-center text-[11px] text-muted">
-          bharataisolutions.com
+          bharatai.solutions
         </div>
       </div>
 
