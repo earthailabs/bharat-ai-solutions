@@ -1,0 +1,38 @@
+.page {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(60, 143, 130, 0.14), transparent 28rem),
+    #eef3f1;
+}
+
+.sheet {
+  box-shadow: 0 24px 80px rgba(17, 63, 57, 0.12);
+}
+
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
+@media print {
+  .page {
+    background: white;
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .sheet {
+    width: 100%;
+    max-width: none;
+    min-height: auto;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .avoidBreak {
+    break-inside: avoid;
+  }
+}
